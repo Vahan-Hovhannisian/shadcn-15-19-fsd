@@ -58,8 +58,5 @@ export default {
       },
     },
   },
-  plugins: [
-    require("taiwlindcss-animate"),
-    require("@savvywombat/tailwindcss-grid-areas"),
-  ],
+  plugins: [require("@savvywombat/tailwindcss-grid-areas")],
 } satisfies Config;
